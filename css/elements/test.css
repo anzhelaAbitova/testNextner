@@ -1,0 +1,199 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+
+.tabs {
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+}
+
+.tabs__wrapper {
+    padding: 17px 16px 0;
+    display: flex;
+    width: 100vw;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.tab {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 12px;
+}
+
+.tab-active {
+    border-bottom: 3px solid #0061D9;
+}
+
+aside {
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 255px;
+    height: 898px;
+}
+
+.zakup__search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zakup__search .form-group {
+    width: calc(100% - 65px);
+}
+
+.zakup__search .form-control {
+    height: 56px;
+    margin-top: 0;
+}
+
+.zakup__search button {
+    width: 57px;
+    height: 56px;
+    padding: 0;
+    fill: #fff;
+}
+
+.zakup__search button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.search-content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.search-content {
+    width: calc(100% - 285px);
+
+}
+
+.search__sorting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sorting_choice {
+    background-color: transparent;
+    border: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0050B2;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.zakup__card {
+    background: #FFFFFF;    
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 16px;
+}
+
+.auction {
+
+}
+
+.zakup__obj {
+
+}
+
+.client {
+
+}
+
+.date__posting {
+
+}
+
+.date__updating {
+
+}
+
+.price {
+
+}
+
+.status {
+
+}
+
+.align-c-rc {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.docs__links svg {
+    fill: #0061D9;
+    width: 17px;
+    height: 17px;
+}
+
+.final__date {
+
+}
+
+.left__dates {
+    display: flex;
+}
+
+.align-c-right {
+    justify-self: end;
+    display: flex;
+    text-align: right;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.ml-27 {
+    margin-left: 27px;
+}
+
+.sm-w {
+    max-width: 197px;
+}
+
+.fs-12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.fs-14 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fs-16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.fw-5 {
+    font-weight: 600;
+}
+
+.dark {
+    color: #76767A;
+}
+
+.black {
+    color: #000000;
+}
